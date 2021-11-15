@@ -1,0 +1,164 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navMainContaner {
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  border-right: 1px solid #2F3336;
+}
+
+.navMainContaner .head {
+  height: auto;
+  width: 60%;
+}
+
+.navMainContaner .head .head-Link .twitter-icone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: flex-start i;
+      -ms-flex-align: flex-start i;
+          align-items: flex-start i;
+  color: #D9D9D9;
+  padding: 10px;
+}
+
+.navMainContaner .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 70vh;
+  width: 60%;
+}
+
+.navMainContaner .navbar .ulbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.navMainContaner .navbar .ulbar .liLinks {
+  width: 100%;
+}
+
+.navMainContaner .navbar .ulbar .liLinks .moreButton {
+  height: 40px;
+  width: 100%;
+  background: red;
+}
+
+.navMainContaner .navbar .ulbar .liLinks .linktag .singleLink {
+  width: 120%;
+  height: auto;
+}
+
+.navMainContaner .navbar .ulbar .liLinks .linktag .singleLink span {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.navMainContaner .navbar .ulbar .liLinks .linktag .singleLink i, .navMainContaner .navbar .ulbar .liLinks .linktag .singleLink span {
+  color: #d9d9d9;
+}
+
+.navMainContaner .make-tweet {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navMainContaner .make-tweet .make-tweet-button {
+  width: 90%;
+}
+
+.navMainContaner .make-tweet .make-tweet-button button {
+  background: #1D9BF0;
+  width: 90%;
+  height: 9vh;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.navMainContaner .Profile_and_email-hanler {
+  height: 9vh;
+  margin-top: 15px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navMainContaner .Profile_and_email-hanler .email-link {
+  height: 100%;
+  width: 90%;
+}
+
+.navMainContaner .Profile_and_email-hanler .email-link .profileContaner {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+}
+
+.navMainContaner .Profile_and_email-hanler .email-link .profileContaner .profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.navMainContaner .Profile_and_email-hanler .email-link .profileContaner .profile-info h4, .navMainContaner .Profile_and_email-hanler .email-link .profileContaner .profile-info span {
+  color: white;
+  font-size: .8rem;
+}
+/*# sourceMappingURL=navbar.css.map */

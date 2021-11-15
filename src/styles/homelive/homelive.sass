@@ -1,0 +1,72 @@
+*
+img
+    width: 50px
+    height: 50px
+    border-radius: 25px
+.the-main-home-and-post-component
+    background: black
+    width: 100%
+    scroll-behavior: smooth
+    height: 100vh
+    overflow: scroll
+    scroll-snap-type: none
+    padding: none
+    .hometitle
+        border-bottom: 1px solid #2F3336
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 10px
+    .tweet-on-home
+        border-bottom: 1px solid #2f3336
+        .image-and-tweet
+            display: flex
+            padding: 20px
+            .tweet-input
+                width: 80%
+                margin-left: 20px
+                background: none
+                border: none
+                color: #fff
+                font-size: 20px
+                &:focus
+                    outline: none
+        .emoje-and-tweet
+            display: flex
+            align-items: center
+            justify-content: flex-end
+            width: 100%
+            padding: 15px
+            .tweetbtn input
+                background: #1D9BF0
+                padding: 8px 20px
+                font-size: 16px
+                color: #ffffff
+                border: none
+                border-radius: 25px
+    .main-tweets-hanlder
+        display: grid
+        grid-template-rows: repeat(1fr , auto)
+        grid-gap: 10px
+        .tweet-text-hanlder
+            display: flex
+            padding: 40px 0
+            .text-tweet
+                color: #fff
+        .main-tweet-hanlder
+            width: 100%
+            height: 100%
+            display: flex
+            justify-content: space-around
+            flex-direction: column
+            padding: 20px
+            border-bottom: 1px solid #2f3336
+            .tweet-hanlder
+                .tweet-title
+                    margin-bottom: 10px
+        .comment-likes-retweet-shar
+            padding: 10px
+            margin-top: 10px
+            display: flex
+            align-items: center
+            justify-content: space-around

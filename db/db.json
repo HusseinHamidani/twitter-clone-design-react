@@ -1,0 +1,9 @@
+{
+    "data":{
+            "trends":[
+                {"trend1":"#this is the tweet section","id":1},
+                {"trend2":"#this is still beta version","id":2},
+                {"trend3":"#wite for the next verstion","id":3}
+            ]
+        }
+}

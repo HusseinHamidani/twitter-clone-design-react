@@ -1,0 +1,134 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+h4, h2, i {
+  color: white;
+}
+
+.mainTrendsContianer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  border-left: 1px solid #2F3336;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainTrendsContianer .mainserchbarcontainer {
+  background: #202327;
+  border-radius: 25px;
+  width: 80%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .input-label-holder {
+  diskplay: flex;
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .input-label-holder .logo-hanler {
+  margin-left: 10px;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .input-label-holder .logo-hanler .logo-search {
+  background: none;
+  color: #686c74;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .the-main-search-input-container {
+  width: 80%;
+  height: 80%;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .the-main-search-input-container .the-main-search-input-hanler {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .the-main-search-input-container .the-main-search-input-hanler input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  outline: nones;
+  outline-color: none;
+}
+
+.mainTrendsContianer .mainserchbarcontainer .the-main-search-input-container .the-main-search-input-hanler input:focus {
+  outline: none;
+}
+
+.mainTrendsContianer .trends-for-you-main-container {
+  background: #202327;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 80%;
+  height: 200px;
+  padding-left: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.mainTrendsContianer .trends-for-you-main-container .trends-foru-text-hander {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.mainTrendsContianer .trends-for-you-main-container .mainTrendsGenerator {
+  height: auto;
+  width: 100%;
+}
+
+.mainTrendsContianer .trends-for-you-main-container .mainTrendsGenerator .single-hash {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=trends.css.map */
